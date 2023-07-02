@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+ }
+ body{
+     background-color: rgb(0, 0, 33);
+     color: white;
+     font-family: 'Poppins', sans-serif;
+ }
+ nav{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     height: 80px;
+     background-color: rgb(18,18,62)
+ }
+ nav ul{
+     display: flex;
+     justify-content: center;
+ }
+ nav ul li{
+     list-style: none;
+     margin: 0 23px;
+ }
+ nav ul li a{
+     text-decoration: none;
+     color: white;
+ }
+ nav ul li a:hover{
+     color: #12d640;
+     font-size: 1.01rem;
+ }
+ .left{
+     font-size: 1.5rem;
+ }
+ .firstsection{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     margin: 23px 0;
+ }
+ .firstsection>div{
+     width: 30%;
+ }
+ .leftsection{
+     width: 30%;
+     font-size: 2.3rem;
+     margin:50px 0 ;
+ }
+ .rightsection{
+     width: 30%;
+
+ }
+ .rightsection img{
+     
+     width: 50%;
+     margin: 50px 0;
+
+ }
+ .purple{
+     color:#12d640;;
+ }
+ #element{
+     color:#12d640;;
+ }
+ .buttons button{
+     padding: 9px 14px;
+     border-radius: 22px;
+     color: white;
+     background-color:#12d640;;
+     font-size: 21px;
+     margin: 0 3px;
+     cursor: pointer;
+ }
+ .firstsec{
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0;
+ }
+ .leftsec{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:10px 50px;
+    
+ }
+ .leftsec img{
+    height: auto;
+    width: 100%;
+ }
+ .rightsec{
+    justify-content: space-around;
+    padding:10px 50px;
+    align-items: center;
+ }
+ .details ul li{
+    margin: 30px 20px;
+ }
+ .details{
+    list-style-type: none;
+ }
+ .details li:before{
+    content: ">";
+    margin-right:5px;
+    color: #12d640;;
+ }
+ .images{
+    display: flex;
+}
+.education img{
+    display: flex;
+}
+.education h3{
+    justify-content: space-between;
+    align-items: center;
+
+}
+.box{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+
+}
+.card{
+    height: 210px;
+    width: 350px;
+    padding: 23px 35px;
+    background-color: rgb(18,18,62);
+    border-radius: 20px;
+    margin: 15px;
+    position:relative;
+    
+}
+.row{
+    position: relative;
+    height: 437.75px;
+}
+.aws{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.section-title{
+    margin:20px;
+}
+.aws img{
+    position: absolute;
+    padding-left: 30px;
+}
+.cisco img{
+    margin:50px;
+    left:10px;
+    
+}
+.image-container1 {
+  position: relative;
+  display: inline-block;
+}
+/* Add some styles to the text and link */
+.image-text {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 5px;
+  font-size: 12px;
+  width: 100%;
+  display: none;
+}
+.image-link {
+  color: #fff;
+  text-decoration: underline;
+}
+.link-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 5px;
+  font-size: 12px;
+}
+.image-container1 {
+position: relative;
+display: inline-block;
+}
+.image-text {
+position: absolute;
+top: 100%;
+left: 0;
+background-color: rgba(0, 0, 0, 0.8);
+color: #fff;
+padding: 5px;
+font-size: 12px;
+width: 100%;
+display: none;
+}
+.image-link {
+color: #fff;
+text-decoration: underline;
+}
+.link-icon {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+background-color: rgba(0, 0, 0, 0.8);
+color: #fff;
+padding: 5px;
+font-size: 12px;
+cursor: pointer;
+opacity: 0;
+transition: opacity 0.2s ease-in-out;
+}
+.image-container1:hover .link-icon {
+opacity: 1;
+}
+.info-popup {
+    display: none;
+    position: absolute;
+    background-color:rgb(18,18,62);
+    color:white;
+    padding: 10px;
+    width: 500px;
+    height: 230px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  .image-container {
+    position: relative;
+    display: inline-block;
+    padding: 50px;
+  }
+  .image-container h2{
+    padding-left:30px ;
+    color:#12d640;
+  }
+  .image-container ul li{
+    padding-left:30px;
+    padding-top: 10px;
+    list-style-type: none;
+    
+  }
+  .image-container ul li a{
+    color: #12d640;
+    
+  }
+  .image-container p{
+    padding-left:30px ;
+  }
+
+  .info-symbol {
+    position: absolute;
+    top: 50px;
+    right:50px;
+    background-color: #999;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align:center;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .heading1 {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  .contact-container ,.second{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  .contact-section{
+    width: 35%;
+    background-color: rgb(18,18,62);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  .social-media-section {
+    width: 35%;
+    background-color: rgb(18,18,62);
+    padding: 20px;
+    border-radius: 5px;
+  }
+  .contact-heading,.container {
+    font-size: 24px;
+    margin-bottom: 30px;
+    color:#12d640;;
+  }
+  .location-symbol {
+    font-size: 18px;
+    margin-right: 5px;
+  }
+  .contact-info {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .social-media-heading {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #12d640;
+  }
+  .container.h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #12d640;
+
+  }
+  .container.p{
+    color:white ;
+  }
+
+  .social-media-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 19px;
+  }
+  .social-media-icon {
+    margin: 0 25px;
+    font-size: 50px;
+    border-radius: 50%;
+    color: #555;
+    cursor: pointer;
+  }
+  .container
+  {
+    width: 32%;
+    background-color: rgb(18,18,62);
+    padding: 40px;
+    margin: 65px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    float: left;
+  }
+  .fourth-section{
+    width: 30%;
+    background-color: rgb(18,18,62);
+    padding: 50px;
+    margin:60px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    float: left;
+    justify-content: space-around;
+
+  }
+ 
